@@ -1,0 +1,12 @@
+flowchart TD
+    A@{ label: "Nike shoe's" } -- Products Offered --> B("Air Forces<br>Nike Air Max<br>&nbsp;Nike Court Legacy")
+    B --> C>"More Information"]
+    C -- Customers that buy this product --> D["statistics show that Nikes are more often bought buy Gen Z and Millennials.&nbsp;<br>People who are Athletic and/or play sports are also more likely to buy these shoes and most likely targeted customers."]
+    C -- Transactions from customers (recent) --> E["Air Forces sold: 50<br>Nike Air Max: 25<br>Nike Court Legacy: 35"]
+    C -- Inventory --> F["Nike forces in stock: 100<br>Nike Air Max in stock :50<br>Nike court legacy in stock: 40"]
+    n1["Anchor"]
+
+    A@{ shape: rect}
+    n1@{ shape: anchor}
+
+
